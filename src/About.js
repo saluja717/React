@@ -9,7 +9,7 @@ export const About = () => {
 
                <div className="row  pt-5 ">
                      <div className="col-md-5 ml-5 im text-center ">
-                         <img className="img-fluid myimg" src={img1} alt="Image"/>
+                         <img className="img-fluid myimg" src={img1} alt="useful_image"/>
                      </div>
                      <div className="col-md-7 mt-lg-0 mt-3">
                     <h3 className="text-center">What is COVID-19 (Corona-Virus)</h3>

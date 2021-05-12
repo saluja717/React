@@ -1,5 +1,4 @@
-import React,{useEffect} from 'react'
-import axios from 'axios';
+import React from 'react'
 import Data from './Data.jsx';
 export const Contact = () => {
     return (

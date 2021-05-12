@@ -8,7 +8,7 @@ import corona from './corona.png'
         <>
    <nav className="navbar navbar-expand-lg navbar-light">
   <div className="container-fluid coloring">
-    <a className="navbar-brand" href="#"><img src={corona} className="img-fluid corona text-white"/><span className="maker_of_covid">Covid 19</span></a>
+    <a className="navbar-brand" href="#Home"><img src={corona} className="img-fluid corona text-white" alt="header_image"/><span className="maker_of_covid">Covid 19</span></a>
     <button className="navbar-toggler icon " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
