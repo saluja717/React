@@ -1,0 +1,13 @@
+.check
+{
+    position:fixed;
+    bottom:12px;
+    left:90%;
+    width:24px;
+    background-color:grey;
+    color:black;
+}
+.make
+{
+    position:relative;
+}

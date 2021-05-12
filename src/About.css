@@ -1,0 +1,18 @@
+.main
+{
+    color:orange;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.myimg {
+   position: relative;
+   width:50vh;
+   height:100%;
+}
+.im
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
