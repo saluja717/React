@@ -4,7 +4,7 @@ import './Update.css';
 import { Bar } from 'react-chartjs-2';
 import CountUp from 'react-countup';
 export  const Update = () => {
-    const [val,up]=useState();
+    // const [val,up]=useState();
     const [total_confirmed,Update]=useState(0);
     const [TotalDeaths,Update_death] = useState(0);
       const [TotalRecovered,Update_recover] = useState(0);
@@ -12,12 +12,11 @@ export  const Update = () => {
         { 
            async function getting_data(){
               const res = await axios.get("https://api.covid19api.com/summary");
-              up(res);
+            //   up(res);
               console.log(res.data.Countries[76]);
                console.log(res);
                let ans =  res.data.Countries[76]['TotalConfirmed'];
                 Update(ans);
-                set(parseInt(ans));
                ans =  res.data.Countries[76]['TotalDeaths']
                Update_death(ans);
                  ans =  res.data.Countries[76]['TotalRecovered']

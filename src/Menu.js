@@ -24,7 +24,7 @@ import corona from './corona.png'
           <a className="nav-link text-center text-white"  href="#Symptoms">Symptoms</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-center text-white" href="#Contact" tabindex="-1" aria-disabled="true">Contact Us</a>
+          <a className="nav-link text-center text-white" href="#Contact"  aria-disabled="true">Contact Us</a>
         </li>
       </ul>
     </div>

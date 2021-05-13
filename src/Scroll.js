@@ -18,7 +18,7 @@ export const Scroll = () => {
             update(false);
             console.log(pageYOffest);
         }
-    },[pageYOffset])
+    },[pageYOffest])
 
     const top = ()=>
     {
