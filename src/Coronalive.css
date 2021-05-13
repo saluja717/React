@@ -1,0 +1,29 @@
+.header
+{
+    font-size:25px;
+    color:blue;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.odd tr:nth-child(odd)
+{
+    background-color:rgb(233, 227, 227);
+}
+
+#inputState
+{
+   width:60%;
+   position: relative;
+}
+.input
+{
+    width:100%;
+    position: relative;
+    margin:auto;
+    padding:20px;
+}
+.pie
+{
+    width:100%;
+    margin:auto;
+}

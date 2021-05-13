@@ -3,6 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import './App.css'
 import corona from './corona.png'
+import {NavLink} from 'react-router-dom'
  const Menu = () => {
     return (
         <>
@@ -25,6 +26,9 @@ import corona from './corona.png'
         </li>
         <li className="nav-item">
           <a className="nav-link text-center text-white" href="#Contact_me"  aria-disabled="true">Contact Us</a>
+        </li>
+        <li className="nav-item">
+        <NavLink className="nav-link text-center text-white" exact to='/Coronalive'>Live State-Wise</NavLink>
         </li>
       </ul>
     </div>
