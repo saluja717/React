@@ -1,7 +1,8 @@
 .header
 {
     font-size:25px;
-    color:blue;
+    color:black;
+    font-style:capitalize;
     font-weight:bold;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -12,7 +13,12 @@
 
 #inputState
 {
-   width:60%;
+   width:40%;
+   position: relative;
+}
+#district
+{
+   width:70%;
    position: relative;
 }
 .input
@@ -21,6 +27,8 @@
     position: relative;
     margin:auto;
     padding:20px;
+    display:flex;
+    justify-content:space-between;
 }
 .pie
 {

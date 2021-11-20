@@ -6,14 +6,14 @@
 .coloring
 {
   width: 100%;
-  background-color:rgb(238, 10, 10);
+  background-color:white;
 }
 .maker_of_covid
 {
   margin-left: 10px;
   font-size: larger;
   font-family: 'Times New Roman', Times, serif;
-  color:white;
+  color:black;
 }
 .icon,.icon:active
 {
@@ -25,6 +25,10 @@ li{
 #About,#Contact_me,#Symptoms,#Home
 {
    position:relative;
+}
+.navbar
+{
+  padding-top:0px;
 }
 #Home
 {

@@ -56,27 +56,31 @@ export  const Update = () => {
                      barPercentage: 1,
                     barThickness: 80,
                     maxBarThickness: 60,
-                    minBarLength: 20,   
+                    minBarLength: 16,
+                    crosshair: true,
+                       
                    label: 'INDIA',
                    data:[total_confirmed, TotalDeaths, TotalRecovered],
 
                                backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                'rgba(255, 99, 132, 0.50)',
+                'rgba(54, 162, 235, 0.50)',
+                'rgba(255, 206, 86, 0.50)',
+                'rgba(75, 192, 192, 0.50)',
+                'rgba(153, 102, 255, 0.50)',
+                'rgba(255, 159, 64, 0.50)'
             ],
             borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'white',
+                'white',
+                'white',
+                'white',
+                'white',
             ],
-            borderWidth: 1
+            borderWidth: 1,
+            strokeColor:'white',
+            fillColor:'white',
+            stroke:'blue'
 
                    }]
              }}
@@ -88,11 +92,17 @@ export  const Update = () => {
                        {
                         ticks:{
                             beginAtZero:true,
+                            lineColor:'white'
+                        },
+                        gridLines:{
+                          display:true,
+                          color:"white"
                         }
                        }
                     ]
                 } }
                 }
+          
             />
           </div> 
         </>
